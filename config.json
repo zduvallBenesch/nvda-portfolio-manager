@@ -1,0 +1,66 @@
+{
+    "portfolio": {
+        "cash": 32.61,
+        "pending_activity": 137.53,
+        "positions": [
+            {
+                "symbol": "NVDA",
+                "type": "stock",
+                "quantity": 37.787,
+                "cost_basis_total": 4056.23,
+                "cost_basis_per_share": 107.34
+            },
+            {
+                "symbol": "NVDA",
+                "type": "option",
+                "option_type": "call",
+                "strike": 300,
+                "expiration": "2027-01-15",
+                "contracts": 1,
+                "cost_basis_total": 640.67,
+                "cost_basis_per_share": 6.41
+            },
+            {
+                "symbol": "PLTR",
+                "type": "stock",
+                "quantity": 2.384,
+                "cost_basis_total": 330.14,
+                "cost_basis_per_share": 138.48
+            },
+            {
+                "symbol": "XLF",
+                "type": "option",
+                "option_type": "put",
+                "strike": 48,
+                "expiration": "2026-09-18",
+                "contracts": 2,
+                "cost_basis_total": 193.35,
+                "cost_basis_per_share": 0.97
+            },
+            {
+                "symbol": "AMC",
+                "type": "option",
+                "option_type": "call",
+                "strike": 2,
+                "expiration": "2026-05-08",
+                "contracts": 2,
+                "cost_basis_total": 39.35,
+                "cost_basis_per_share": 0.20
+            }
+        ]
+    },
+    "settings": {
+        "refresh_interval": 15,
+        "default_timeframe": "1d",
+        "default_chart_timeframe": "5m",
+        "iv_fallback": 0.55,
+        "stop_loss_atr_multiplier": 2.0,
+        "concentration_threshold": 0.25
+    },
+    "apis": {
+        "tradier_token": "",
+        "polygon_api_key": "",
+        "marketdata_token": ""
+    },
+    "alerts": []
+}
